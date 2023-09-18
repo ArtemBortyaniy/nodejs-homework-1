@@ -38,5 +38,6 @@ program
   .option("-p, --phone <type>", "user phone");
 
 program.parse();
+
 const option = program.opts();
 invokeAction(option);
